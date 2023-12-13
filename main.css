@@ -3,6 +3,11 @@
    src: url(Black\ Santa.ttf);
 }
 
+@font-face{
+    font-family: "Whitestorm";
+    src: url(White\ Storm.otf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -37,5 +42,9 @@ body{
         -webkit-text-stroke: 1px;
         -webkit-text-stroke-color: black;
         text-align:center
+    }
+    h2{
+        font-family: "Whitestorm";
+        font-size: 30px;
     }
 }
