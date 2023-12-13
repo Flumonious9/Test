@@ -1,0 +1,41 @@
+@font-face {
+   font-family: "Blacksanta";
+   src: url(Black\ Santa.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Image{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.Image img{
+    width: 100%;
+}
+
+.Image .text{
+    position: absolute;
+    color: #309490;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+head{
+    color-scheme: Blue;
+}
+body{
+    background-color: aquamarine;
+    h1{
+        font-family: "Blacksanta";
+        color: #309490;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: black;
+        text-align:center
+    }
+}
